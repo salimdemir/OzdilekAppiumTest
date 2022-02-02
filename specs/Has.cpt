@@ -1,0 +1,60 @@
+Created by testinium on 2.02.2022
+
+This is a concept file with following syntax for each concept.
+
+#Uygulama Açıldı
+* "17" saniye kadar bekle
+# Uygulama Açılış Kontrolü Yapıldı
+*"com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" id li elementi "ALIŞVERİŞE BAŞLA" text ifadesini alarak kontrol et
+* "9" saniye kadar bekle
+# Alışverişe Başla Butonuna Tıklandı
+* "com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" id li elemanı bul tıkla
+* "9" saniye kadar bekle
+# Alışveriş Sayfasının Açıldığı Kontrol Edildi
+* "com.ozdilek.ozdilekteyim:id/largeLabel" id li elementi "Anasayfa" text ifadesini alarak kontrol et
+* "9" saniye kadar bekle
+# Kategoriler Butonuna Tıklandı
+* "	//android.widget.FrameLayout[@content-desc='Kategoriler']/android.view.ViewGroup/android.widget.TextView" xpath li elemanı bul tıkla
+* "9" saniye kadar bekle
+# Kategori Sayfasının Açıldığı Kontrol Edildi
+* "//android.widget.LinearLayout[@content-desc='Markalar']/android.widget.TextView" xpath li elementi "Markalar" text ifadesini alarak kontrol et
+* "9" saniye kadar bekle
+# Menüden Kadın Seçeneğine Tıklandı
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'][2]" xpath li elemanı bul tıkla
+* "9" saniye kadar bekle
+# Pantolon Kategorisine Tıklandı
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'][14]" xpath li elemanı bul tıkla
+* "9" saniye kadar bekle
+# Sayfa Aşağıya Kaydırıldı
+* Sayfayı kaydır
+* "9" saniye kadar bekle
+# Sayfa İkinci Kere Aşağıya Kaydırıldı
+* Sayfayı kaydır
+* "8" saniye kadar bekle
+# Ürünler Sayfasından Rastgele Bir Ürün Seçildi
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/recyclerView']/android.widget.FrameLayout" liste ile rastgele bir ürün seç
+* "7" saniye kadar bekle
+# Ürün Detay Sayfası Açılışı Kontrol Edildi
+* "//*[@text='SEPETE EKLE']" xpath li elementi "SEPETE EKLE" text ifadesini alarak kontrol et
+* "6" saniye kadar bekle
+# Favorilere Ekle Butonuna Tıklandı
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayAddFav']" xpath li elemanı bul tıkla
+* "6" saniye kadar bekle
+# Giriş Yap Sayfa Açılışı Kontrol Edildi
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/btnLogin']" xpath li elementi "Giriş Yap" text ifadesini alarak kontrol et
+* "6" saniye kadar bekle
+# Kullanıcı Adı Alanına text İbaresi Girildi
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/etEposta']" xpath li elementi bul ve "text" değerini gir
+* "6" saniye kadar bekle
+# Şifre Alanına şifre İbaresi Girildi
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/etPassword']" xpath li elementi bul ve "şifre" değerini gir
+* "6" saniye kadar bekle
+# Geri Butonuna Tıklandı
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/ivBack']" xpath li elemanı bul tıkla
+* "6" saniye kadar bekle
+# Geri Butonuna İkinci Kere Tıklandı
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/ivBack']" xpath li elemanı bul tıkla
+* "6" saniye kadar bekle
+# Sepete Ekle Butonuna Tıklandı
+* "//*[@text='SEPETE EKLE']" xpath li elemanı bul tıkla
+* "5" saniye kadar bekle
